@@ -1,26 +1,28 @@
-nav {
-    background-color: steelblue;
-    padding: 10px;
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #00539f;
+    color: #333;
+    text-align: center;
 }
 
-nav a {
-    color: white;
-    display: block;
-    padding: 20px;
+aside img {
+    width: 200px;
+    height: auto;
 }
 
-h1 {
-    color: steelblue;
-}
-
-img{
+main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+
 }
 
-p {
-    padding: 10px;
+p { padding: 0;}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px #000;
+    text-align: center;
 }
