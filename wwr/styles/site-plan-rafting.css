@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --primary-color: #51BBFE;
+    --secondary-color: #16E0BD;
+    --accent1-color: #F4E76E;
+    --accent2-color: #5E5D5C;
+
+    --heading-font: 'Playfair Display', serif;
+    --paragraph-font: 'Playfair Display', serif;
+
+    --nav-background-color: #5E5D5C;
+    --nav-link-color: #5E5D5C;
+    --nav-hover-link-color: #F4E76E;
+    --nav-hover-background-color: #5E5D5C;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    background-color: #51BBFE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:var(--heading-font);
+    color: #5E5D5C;
+}
+
+header {
+    padding: 20px;
+    background-color:#16E0BD;
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: #16E0BD;
+    font-size: 1.2rem;
+    display: flex; 
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color)
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color)
+}
+
