@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+:root {
+    --primary-color: #51BBFE;
+    --secondary-color: #16E0BD;
+    --accent-one: #F4E76E;
+    --accent-two: #5E5D5C;
+
+    --heading-font: 'Black Han';
+    --paragrap-font: 'Neutron';
+
+    --nav-background-color: #5E5D5C;
+    --nav-link-color: #5E5D5C;
+    --nav-hover-link-color: #F4E76E;
+    --nav-hover-background-color: #5E5D5C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family:var(--heading-font);
+    color:#5E5D5C;
+    text-align: center;
+    background-color:#51BBFE;
+    opacity: .6
+}
+
+h2, h3 {
+    font-family: var(--heading-font);
+    color:#5E5D5C
+}
+
+.header {
+    display: grid;
+    align-items: center;
+}
+
+.header nav a {
+    color: black;
+    margin: 15px;
+}
+
+.header nav a:hover {
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+header, img, nav {
+    background-color:white;
+    text-align: center;
+}
+
+.a {
+    text-align: center;
+}
+
+.hero {
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    margin: 10px;
+    border: 1px;
+    padding: 10px;
+    background-color: white;
+    opacity: .6;
+}
+
+.hero article p {
+    font-family: var(--paragrap-font);
+    color: black;
+    font-weight: bolder;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 3em;
+}
+
+.hero article img {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+.hero article {
+    top: 50%;
+    height: 40%;
+}
+
+.hero h1 {
+    text-align: center;
+    width: 85%;
+}
