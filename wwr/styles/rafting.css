@@ -290,4 +290,161 @@ button:hover {
     background-color:#F4E76E;
 }
 
+/* Design for Home page*/
 
+header, main, footer {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: #000;
+}
+
+h2, h3 {
+    font-family: var(--heading-font);
+    color: #000;
+}
+
+.newsletter h2 {
+    text-align: center;
+}
+
+.call-to-action {
+    text-align: center;
+}
+
+.call-to-action h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.call-to-action p {
+    font-family: var(--paragraph-font);
+    font-size: 1.1rem;
+    margin: 5px;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    margin: 7px;
+    background-color: var(--primary-color);
+    color:#000;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #F4E76E;
+}
+
+.newsletter h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    background-color: #5E5D5C;
+}
+
+.newsletter input[type="text"] {
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 300px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+
+/* table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+th {
+    background-color: #51BBFE;
+    padding: 7px;
+    text-align: left;
+    border-bottom: 2px solid #000;
+    margin-top: 15px;
+}
+
+td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 2px solid #000;
+}
+
+/* grid */
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-items {
+    flex: 1 1 300px;
+    margin: 15px;
+    text-align: center;
+}
+
+.grid-items img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-items h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.grid-items p {
+    font-size: .9rem;
+}
+
+/* trips page */
+
+.cta h2 {
+    text-align: center;
+    background-color: #51BBFE;
+    font-size: 3rem;
+    font-family: var(--heading-font);
+}
+
+.trip h2 {
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: 2rem;
+}
+
+.trip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trip-image {
+    margin-top: 15px;
+}
+
+.trip-image img {
+    width: 500px;
+    height: auto;
+    border-radius: 20%;
+    box-shadow: 0 0 5px #000;
+}
